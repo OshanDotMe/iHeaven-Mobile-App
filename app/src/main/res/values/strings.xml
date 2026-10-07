@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IHeaven</string>
+    <string name="version_txt">V 1.0</string>
+    <string name="slogan">@ GoZee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">646113695840-7enj3t25ovcraogqh2k5ai2uqqrr5v43.apps.googleusercontent.com</string>
+</resources>

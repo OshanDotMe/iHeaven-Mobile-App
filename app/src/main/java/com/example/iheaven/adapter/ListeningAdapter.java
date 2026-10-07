@@ -1,0 +1,77 @@
+package com.example.iheaven.adapter;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
+import com.example.iheaven.R;
+import com.example.iheaven.model.Product;
+
+import java.util.List;
+
+public class ListeningAdapter extends RecyclerView.Adapter<ListeningAdapter.ViewHolder> {
+
+    private List<Product> products;
+    private OnListingItemClickListener listener;
+
+    public ListeningAdapter(List<Product> products, OnListingItemClickListener listener) {
+        this.products = products;
+        this.listener = listener;
+    }
+
+    @NonNull
+    @Override
+    public ListeningAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_product_recycler, parent, false);
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ListeningAdapter.ViewHolder holder, int position) {
+        Product product = products.get(position);
+        holder.productName.setText(product.getTitle());
+        holder.productPrice.setText("LKR "+product.getPrice());
+        Glide.with(holder.itemView.getContext())
+                .load(product.getImages().get(0))
+                .centerCrop()
+                .into(holder.productImage);
+        holder.itemView.setOnClickListener(v->{
+            Animation animation = AnimationUtils.loadAnimation(holder.itemView.getContext(), R.anim.click_animation);
+            v.startAnimation(animation);
+            if (listener != null) {
+                listener.onListingItemClick(product);
+            }
+        });
+    }
+
+    @Override
+    public int getItemCount() {
+        return products.size();
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+
+        ImageView productImage;
+        TextView productName;
+        TextView productPrice;
+
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            productImage = itemView.findViewById(R.id.product_image);
+            productName = itemView.findViewById(R.id.product_name);
+            productPrice = itemView.findViewById(R.id.product_price);
+        }
+    }
+
+    public interface OnListingItemClickListener{
+        void onListingItemClick(Product product);
+    }
+}
