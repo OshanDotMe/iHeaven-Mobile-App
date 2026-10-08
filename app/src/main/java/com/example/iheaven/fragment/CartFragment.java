@@ -341,13 +341,13 @@ public class CartFragment extends Fragment {
     private void placeOrder() {
         if (savedShippingAddress == null) {
             Toast.makeText(getContext(),
-                    "Please add a delivery address...",
+                    "Please add a delivery address",
                     Toast.LENGTH_SHORT).show();
             return;
         }
         if (cartItems.isEmpty()) {
             Toast.makeText(getContext(),
-                    "Your cart is empty",
+                    "Your cart is empty...",
                     Toast.LENGTH_SHORT).show();
             return;
         }
