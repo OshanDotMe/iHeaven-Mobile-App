@@ -90,6 +90,7 @@ Firestore Root
 2. **Interactive Catalog Browsing**: Search by keyword and filter dynamically by category.
 3. **Dynamic Variant Selection**: Real-time recalculation of total cost based on selected storage capacities and color options.
 4. **Transaction Safety**: Pending orders are created in memory and only committed to Firestore upon receipt of a verified successful result code (`RESULT_OK`) from the PayHere SDK.
+5. **Order Tracking**: Detailed timeline view of active orders and order history.
 
 
 ### 💻 Web Admin Dashboard
