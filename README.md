@@ -86,6 +86,7 @@ Firestore Root
 ## 🚀 Key Features
 
 ### 📱 Customer Mobile Application
+1. **User Authentication**: Secure signup and signin backed by Firebase Auth.
 
 
 ### 💻 Web Admin Dashboard
