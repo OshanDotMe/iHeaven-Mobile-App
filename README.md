@@ -92,7 +92,7 @@ Firestore Root
 4. **Transaction Safety**: Pending orders are created in memory and only committed to Firestore upon receipt of a verified successful result code (`RESULT_OK`) from the PayHere SDK.
 5. **Order Tracking**: Detailed timeline view of active orders and order history.
 6. **Physical Gesture Interaction**: Accelerometer-driven shake detection prompts users to easily clear their active shopping cart.
-
+7. **Offline-Capable Scheduled Notifications**: Alarm-triggered local background status reminders post-checkout.
 
 ### 💻 Web Admin Dashboard
 1. **Live Analytics**: Overview cards summarizing total customer count, catalog volume, total orders, and cumulative revenue.
