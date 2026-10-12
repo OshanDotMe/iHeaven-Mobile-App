@@ -169,7 +169,7 @@ Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and
 
 ## 📄 Developer Information
 
-- **Author**: K.G. Oshan Adithya
+- **Author**: Oshan Adithya
 
 ---
 
