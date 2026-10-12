@@ -85,6 +85,7 @@ Firestore Root
 
 ## 🚀 Key Features
 
+### 📱 Customer Mobile Application
 
 
 ### 💻 Web Admin Dashboard
