@@ -87,6 +87,7 @@ Firestore Root
 
 ### 📱 Customer Mobile Application
 1. **User Authentication**: Secure signup and signin backed by Firebase Auth.
+2. **Interactive Catalog Browsing**: Search by keyword and filter dynamically by category.
 
 
 ### 💻 Web Admin Dashboard
