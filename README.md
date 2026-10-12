@@ -170,8 +170,6 @@ Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and
 ## 📄 Developer Information
 
 - **Author**: K.G. Oshan Adithya
-- **Academic Program**: BSc (Hons) Software Engineering (Top-Up) - Birmingham City University
-- **Institution**: Java Institute for Advanced Technology
 
 ---
 
