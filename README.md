@@ -177,4 +177,5 @@ Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and
 
 ## 📜 License
 
+Distributed under the MIT License. See `LICENSE` for more details.
 
