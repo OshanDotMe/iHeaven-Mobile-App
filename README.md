@@ -158,4 +158,19 @@ Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and
 
 ---
 
+## 🔮 Future Enhancements
+
+- [ ] **Native Image Uploads**: Firebase Storage integration for direct media uploads in the admin panel.
+- [ ] **Verified Ratings & Reviews**: Purchaser verification system for leaving user ratings.
+- [ ] **In-App Wishlist**: Ability to save items for future purchases.
+- [ ] **Advanced Full-Text Search**: Algolia or Firebase Search Extensions for fuzzy matching and price filtering.
+
+---
+
+## 📄 Developer Information
+
+- **Author**: Oshan Adithya
+-For permissions, feedback, or collaboration, feel free to reach out:
+- **LinkedIn:** [Oshan Adithya](https://www.linkedin.com/)
+
 
