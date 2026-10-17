@@ -173,4 +173,8 @@ Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and
 -For permissions, feedback, or collaboration, feel free to reach out:
 - **LinkedIn:** [Oshan Adithya](https://www.linkedin.com/)
 
+---
+
+## 📜 License
+
 
