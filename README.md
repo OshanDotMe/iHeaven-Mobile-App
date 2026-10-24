@@ -165,5 +165,9 @@ Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and
 - [ ] **In-App Wishlist**: Ability to save items for future purchases.
 - [ ] **Advanced Full-Text Search**: Algolia or Firebase Search Extensions for fuzzy matching and price filtering.
 
+---
+
+## 📄 Developer Information
+
 
 
