@@ -144,38 +144,5 @@ cd iHeaven
      appId: "YOUR_APP_ID"
    };
    ```
-3. Serve the admin panel locally using any standard development server (e.g., Live Server extension in VS Code, IntelliJ built-in web server, or `npx serve`).
 
----
-
-## 🧪 Testing Summary
-
-Testing was performed across both an **Android Emulator (Pixel 9a, API 36)** and **physical test devices**:
-
-- **Payment Flow Validation**: Verified orders only persist to Firestore when payment status reports success. Cancellations discard pending memory state without modifying database tables.
-- **Real-Time Synchronicity**: Verified changes made in the web admin panel propagate to active client views in under 2 seconds via Firestore WebSocket listeners.
-- **Gesture Verification**: Confirmed shake thresholds successfully trigger prompt confirmation dialogs before modifying cart items.
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] **Native Image Uploads**: Firebase Storage integration for direct media uploads in the admin panel.
-- [ ] **Verified Ratings & Reviews**: Purchaser verification system for leaving user ratings.
-- [ ] **In-App Wishlist**: Ability to save items for future purchases.
-- [ ] **Advanced Full-Text Search**: Algolia or Firebase Search Extensions for fuzzy matching and price filtering.
-
----
-
-## 📄 Developer Information
-
-- **Author**: Oshan Adithya
--For permissions, feedback, or collaboration, feel free to reach out:
-- **LinkedIn:** [Oshan Adithya](https://www.linkedin.com/)
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more details.
 
